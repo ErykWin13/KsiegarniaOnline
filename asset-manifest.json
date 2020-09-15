@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/KsiegarniaOnline/static/css/main.326b3a83.chunk.css",
-    "main.js": "/KsiegarniaOnline/static/js/main.d876aed6.chunk.js",
-    "main.js.map": "/KsiegarniaOnline/static/js/main.d876aed6.chunk.js.map",
+    "main.js": "/KsiegarniaOnline/static/js/main.cb430775.chunk.js",
+    "main.js.map": "/KsiegarniaOnline/static/js/main.cb430775.chunk.js.map",
     "runtime-main.js": "/KsiegarniaOnline/static/js/runtime-main.ffbbe8aa.js",
     "runtime-main.js.map": "/KsiegarniaOnline/static/js/runtime-main.ffbbe8aa.js.map",
     "static/js/2.7bc7f2ac.chunk.js": "/KsiegarniaOnline/static/js/2.7bc7f2ac.chunk.js",
     "static/js/2.7bc7f2ac.chunk.js.map": "/KsiegarniaOnline/static/js/2.7bc7f2ac.chunk.js.map",
     "index.html": "/KsiegarniaOnline/index.html",
-    "precache-manifest.6cc48c928696b948495a6e2a40c8d459.js": "/KsiegarniaOnline/precache-manifest.6cc48c928696b948495a6e2a40c8d459.js",
+    "precache-manifest.500acff75598f69114556cba7a4985d3.js": "/KsiegarniaOnline/precache-manifest.500acff75598f69114556cba7a4985d3.js",
     "service-worker.js": "/KsiegarniaOnline/service-worker.js",
     "static/css/main.326b3a83.chunk.css.map": "/KsiegarniaOnline/static/css/main.326b3a83.chunk.css.map",
     "static/js/2.7bc7f2ac.chunk.js.LICENSE.txt": "/KsiegarniaOnline/static/js/2.7bc7f2ac.chunk.js.LICENSE.txt",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.ffbbe8aa.js",
     "static/js/2.7bc7f2ac.chunk.js",
     "static/css/main.326b3a83.chunk.css",
-    "static/js/main.d876aed6.chunk.js"
+    "static/js/main.cb430775.chunk.js"
   ]
 }

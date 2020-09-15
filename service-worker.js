@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/KsiegarniaOnline/precache-manifest.6cc48c928696b948495a6e2a40c8d459.js"
+  "/KsiegarniaOnline/precache-manifest.500acff75598f69114556cba7a4985d3.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc8e4ef162754d383d61dc6d81f15fe8",
+    "revision": "b1267489c75847b7cda85d0de73a2008",
     "url": "/KsiegarniaOnline/index.html"
   },
   {
-    "revision": "690d514ac2e1dc9590dc",
+    "revision": "b3e99eba12e407f4617e",
     "url": "/KsiegarniaOnline/static/css/main.326b3a83.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KsiegarniaOnline/static/js/2.7bc7f2ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "690d514ac2e1dc9590dc",
-    "url": "/KsiegarniaOnline/static/js/main.d876aed6.chunk.js"
+    "revision": "b3e99eba12e407f4617e",
+    "url": "/KsiegarniaOnline/static/js/main.cb430775.chunk.js"
   },
   {
     "revision": "02389696aa585354e74f",
