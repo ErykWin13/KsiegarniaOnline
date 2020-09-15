@@ -40,7 +40,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <header>
             {<Header openMenuFunction={this.handleOpenNavigation} />}
