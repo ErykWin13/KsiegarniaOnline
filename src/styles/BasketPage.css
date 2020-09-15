@@ -1,0 +1,14 @@
+.BasketPage {
+    padding: 10% 5%;
+}
+
+.BasketPage h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+
+.BasketPage h3 {
+    text-align: center;
+    font-size: 1.2rem;
+}

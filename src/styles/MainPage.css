@@ -1,0 +1,120 @@
+/* EXTRA SMALL DEVICES  */
+
+.MainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 85vh;
+    padding: 5%;
+}
+
+.MainPage .BookIcon {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+}
+
+.MainPage .Text p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.MainPage .Books {
+    width: 100%;
+}
+
+.MainPage .Books h2 {
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.MainPage .Books .AllBooks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.MainPage .Books div {
+    flex-basis: 25%;
+    overflow: hidden;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+}
+
+.MainPage .Books div img {
+    display: block;
+    width: 100%;
+    transform: scale(1);
+    transition: .2s linear;
+}
+
+.MainPage .Books div img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
+/* SMALL DEVICES  */
+
+@media(min-width:768px) {
+    .MainPage .BookIcon {
+        font-size: 4.3rem;
+    }
+
+    .MainPage .Text p {
+        font-size: 2rem;
+    }
+
+    .MainPage .Books h2 {
+        margin-bottom: 3%;
+        font-size: 2.5rem;
+    }
+}
+
+
+/* MEDIUM DEVICES  */
+
+@media(min-width:1024px) {
+    .MainPage {
+        padding: 5% 10%;
+    }
+
+    .MainPage .BookIcon {
+        font-size: 5rem;
+    }
+
+    .MainPage .Text p {
+        font-size: 2.2rem;
+    }
+
+    .MainPage .Books h2 {
+        margin-bottom: 2%;
+        font-size: 2.9rem;
+    }
+}
+
+
+/* LARGE DEVICES  */
+
+@media(min-width:1200px) {
+    .MainPage {
+        height: 83vh;
+        padding: 0 10%;
+    }
+
+    .MainPage .Text p {
+        padding: 0 5%;
+    }
+
+    .MainPage .Books {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .MainPage .Books h2 {
+        margin-bottom: 2%;
+        text-align: center;
+    }
+}

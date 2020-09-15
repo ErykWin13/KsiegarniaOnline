@@ -1,0 +1,116 @@
+/* EXTRA SMALL DEVICES  */
+
+nav.SmallDevicesNav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 70%;
+    background-color: white;
+    z-index: 1;
+    transition: .3s linear;
+}
+
+nav.SmallDevicesNav.Active {
+    right: 0;
+}
+
+nav.SmallDevicesNav .Close {
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 2.5rem;
+}
+
+nav.SmallDevicesNav ul.SmallDevicesMenu {
+    margin-top: 20%;
+    list-style: none;
+}
+
+nav.SmallDevicesNav ul.SmallDevicesMenu li {
+    margin: 5%;
+    text-align: center;
+}
+
+nav.SmallDevicesNav ul.SmallDevicesMenu li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav.SmallDevicesNav ul.SmallDevicesMenu :nth-child(2) {
+    font-size: 1.5rem;
+}
+
+
+nav.SmallDevicesNav ul.SmallDevicesMenu ul.BooksCategories {
+    display: none;
+    margin: 5% 0;
+    list-style: none;
+}
+
+nav.SmallDevicesNav ul.SmallDevicesMenu ul.BooksCategories li a {
+    font-size: 1.2rem;
+}
+
+nav.SmallDevicesNav ul.SmallDevicesMenu ul.BooksCategories.Active {
+    display: block;
+}
+
+
+/* SMALL DEVICES  */
+
+@media(min-width:768px) {
+    nav.SmallDevicesNav .Close {
+        font-size: 3.5rem;
+    }
+
+    nav.SmallDevicesNav ul.SmallDevicesMenu li a {
+        font-size: 2.2rem;
+    }
+
+    nav.SmallDevicesNav ul.SmallDevicesMenu :nth-child(2) {
+        font-size: 2.2rem;
+    }
+
+    nav.SmallDevicesNav ul.SmallDevicesMenu ul.BooksCategories {
+        margin: 6% 0;
+    }
+
+    nav.SmallDevicesNav ul.SmallDevicesMenu ul.BooksCategories li a {
+        font-size: 1.7rem;
+    }
+}
+
+/* MEDIUM DEVICES  */
+
+@media(min-width:1024px) {
+    nav.SmallDevicesNav {
+        width: 60%;
+    }
+
+    nav.SmallDevicesNav ul.SmallDevicesMenu li a {
+        font-size: 2.5rem;
+    }
+
+    nav.SmallDevicesNav ul.SmallDevicesMenu :nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+
+    nav.SmallDevicesNav ul.SmallDevicesMenu ul.BooksCategories {
+        margin: 8% 0;
+    }
+
+    nav.SmallDevicesNav ul.SmallDevicesMenu ul.BooksCategories li a {
+        font-size: 2rem;
+    }
+}
+
+
+/* LARGE DEVICES  */
+
+@media(min-width:1200px) {
+    nav.SmallDevicesNav {
+        display: none;
+    }
+}

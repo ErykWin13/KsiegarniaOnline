@@ -1,0 +1,57 @@
+/* EXTRA SMALL DEVICES  */
+
+footer {
+    height: 5vh;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+    background-color: white;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #222;
+    line-height: 5vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* SMALL DEVICES  */
+
+@media(min-width:768px) {
+    footer {
+        height: 4vh;
+    }
+
+    footer p {
+        font-size: 1.4rem;
+        line-height: 4vh;
+    }
+}
+
+
+/* MEDIUM DEVICES  */
+
+@media(min-width:1024px) {
+    footer {
+        border-top: 2px solid #222;
+        border-bottom: 2px solid #222;
+    }
+
+    footer p {
+        font-size: 1.7rem;
+    }
+}
+
+
+/* LARGE DEVICES  */
+
+@media(min-width:1200px) {
+    footer {
+        height: 5vh;
+    }
+
+    footer p {
+        line-height: 5vh;
+    }
+}

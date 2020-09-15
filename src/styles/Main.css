@@ -1,0 +1,12 @@
+main {
+    margin-top: 10vh;
+    flex-grow: 1;
+}
+
+/* LARGE DEVICES  */
+
+@media(min-width:1200px) {
+    main {
+        min-height: 83vh;
+    }
+}

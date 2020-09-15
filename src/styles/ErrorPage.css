@@ -1,0 +1,63 @@
+/* EXTRA SMALL DEVICES  */
+
+.ErrorPage {
+    padding: 10% 5%;
+}
+
+.ErrorPage .Cog {
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 2.5rem;
+    animation: CogAnimation infinite 10s linear;
+}
+
+.ErrorPage h2 {
+    text-align: center;
+}
+
+
+/* SMALL DEVICES  */
+
+@media(min-width:768px) {
+    .ErrorPage {
+        padding: 10% 5%;
+    }
+
+    .ErrorPage .Cog {
+        font-size: 3.5rem;
+    }
+
+    .ErrorPage h2 {
+        font-size: 2rem;
+    }
+}
+
+
+/* MEDIUM DEVICES  */
+
+@media(min-width:1024px) {
+    .ErrorPage {
+        padding: 10% 5%;
+    }
+
+    .ErrorPage .Cog {
+        margin-bottom: 2%;
+        font-size: 4.5rem;
+    }
+
+    .ErrorPage h2 {
+        font-size: 2.5rem;
+    }
+}
+
+
+@keyframes CogAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

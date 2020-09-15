@@ -1,0 +1,71 @@
+/* SMALL DEVICES  */
+
+nav.LargeDevicesNav {
+    display: none;
+}
+
+
+/* LARGE DEVICES  */
+
+@media(min-width:1200px) {
+    nav.LargeDevicesNav {
+        display: block;
+        width: 40%;
+    }
+
+    nav.LargeDevicesNav ul.LargeDevicesMenu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+    }
+
+    nav.LargeDevicesNav ul.LargeDevicesMenu li {
+        flex-basis: 25%;
+        text-align: center;
+    }
+
+    nav.LargeDevicesNav ul.LargeDevicesMenu li a {
+        padding: 5%;
+        font-size: 1.8rem;
+        text-decoration: none;
+        transition: .2s linear;
+    }
+
+
+    nav.LargeDevicesNav ul.LargeDevicesMenu :nth-child(2) {
+        position: relative;
+        text-align: center;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    nav.LargeDevicesNav ul.LargeDevicesMenu li a:hover {
+        color: #555;
+    }
+
+    nav.LargeDevicesNav ul.LargeDevicesMenu ul.BooksCategories {
+        display: none;
+        position: absolute;
+        width: 100%;
+        padding: 5%;
+        border-right: 2px solid #222;
+        border-bottom: 2px solid #222;
+        border-left: 2px solid #222;
+        background-color: white;
+        list-style: none;
+        cursor: text;
+    }
+
+    nav.LargeDevicesNav ul.LargeDevicesMenu ul.BooksCategories li {
+        margin: 15% 0;
+    }
+
+    nav.LargeDevicesNav ul.LargeDevicesMenu ul.BooksCategories li a {
+        font-size: 1.6rem;
+    }
+
+    nav.LargeDevicesNav ul.LargeDevicesMenu ul.BooksCategories.Active {
+        display: block;
+    }
+}
