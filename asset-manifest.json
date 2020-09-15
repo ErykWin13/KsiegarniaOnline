@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/KsiegarniaOnline/static/css/main.326b3a83.chunk.css",
+    "main.js": "/KsiegarniaOnline/static/js/main.d876aed6.chunk.js",
+    "main.js.map": "/KsiegarniaOnline/static/js/main.d876aed6.chunk.js.map",
+    "runtime-main.js": "/KsiegarniaOnline/static/js/runtime-main.ffbbe8aa.js",
+    "runtime-main.js.map": "/KsiegarniaOnline/static/js/runtime-main.ffbbe8aa.js.map",
+    "static/js/2.7bc7f2ac.chunk.js": "/KsiegarniaOnline/static/js/2.7bc7f2ac.chunk.js",
+    "static/js/2.7bc7f2ac.chunk.js.map": "/KsiegarniaOnline/static/js/2.7bc7f2ac.chunk.js.map",
+    "index.html": "/KsiegarniaOnline/index.html",
+    "precache-manifest.6cc48c928696b948495a6e2a40c8d459.js": "/KsiegarniaOnline/precache-manifest.6cc48c928696b948495a6e2a40c8d459.js",
+    "service-worker.js": "/KsiegarniaOnline/service-worker.js",
+    "static/css/main.326b3a83.chunk.css.map": "/KsiegarniaOnline/static/css/main.326b3a83.chunk.css.map",
+    "static/js/2.7bc7f2ac.chunk.js.LICENSE.txt": "/KsiegarniaOnline/static/js/2.7bc7f2ac.chunk.js.LICENSE.txt",
+    "static/media/12-życiowych-zasad.jpg": "/KsiegarniaOnline/static/media/12-życiowych-zasad.472ddf53.jpg",
+    "static/media/bazar-złych-snów.jpg": "/KsiegarniaOnline/static/media/bazar-złych-snów.3b4eb72d.jpg",
+    "static/media/był-sobie-pies-2.jpg": "/KsiegarniaOnline/static/media/był-sobie-pies-2.201ce8f4.jpg",
+    "static/media/był-sobie-pies.jpg": "/KsiegarniaOnline/static/media/był-sobie-pies.3047b13e.jpg",
+    "static/media/hobbit.jpg": "/KsiegarniaOnline/static/media/hobbit.fdd90d95.jpg",
+    "static/media/i-że-cię-nie-opuszczę.jpg": "/KsiegarniaOnline/static/media/i-że-cię-nie-opuszczę.81725db2.jpg",
+    "static/media/już-mnie-nie-oszukasz.jpg": "/KsiegarniaOnline/static/media/już-mnie-nie-oszukasz.5da5fe3f.jpg",
+    "static/media/narzędzia-tytanów.jpg": "/KsiegarniaOnline/static/media/narzędzia-tytanów.b8d45f8a.jpg",
+    "static/media/nocna-runda.jpg": "/KsiegarniaOnline/static/media/nocna-runda.12e80993.jpg",
+    "static/media/obudź-w-sobie-olbrzyma.jpg": "/KsiegarniaOnline/static/media/obudź-w-sobie-olbrzyma.45568132.jpg",
+    "static/media/odbiorę-ci-wszystko.jpg": "/KsiegarniaOnline/static/media/odbiorę-ci-wszystko.c7b47e7f.jpg",
+    "static/media/potęga-pewności-siebie.jpg": "/KsiegarniaOnline/static/media/potęga-pewności-siebie.4b5e434a.jpg",
+    "static/media/smętarz-dla-zwierzaków.jpg": "/KsiegarniaOnline/static/media/smętarz-dla-zwierzaków.a03cdb30.jpg",
+    "static/media/to.jpg": "/KsiegarniaOnline/static/media/to.ba033dfb.jpg",
+    "static/media/w-pustyni-i-w-puszczy.jpg": "/KsiegarniaOnline/static/media/w-pustyni-i-w-puszczy.8a11e5be.jpg",
+    "static/media/wiedźmin-krew-elfów.jpg": "/KsiegarniaOnline/static/media/wiedźmin-krew-elfów.1c3cf1b0.jpg",
+    "static/media/wiedźmin-ostatnie-życzenie.jpg": "/KsiegarniaOnline/static/media/wiedźmin-ostatnie-życzenie.c7b584a7.jpg",
+    "static/media/wiedźmin-pani-jeziora.jpg": "/KsiegarniaOnline/static/media/wiedźmin-pani-jeziora.fd4fead6.jpg",
+    "static/media/wyspa-skarbów.jpg": "/KsiegarniaOnline/static/media/wyspa-skarbów.a8d2b663.jpg",
+    "static/media/łowca-snów.jpg": "/KsiegarniaOnline/static/media/łowca-snów.ddc174f9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffbbe8aa.js",
+    "static/js/2.7bc7f2ac.chunk.js",
+    "static/css/main.326b3a83.chunk.css",
+    "static/js/main.d876aed6.chunk.js"
+  ]
+}
